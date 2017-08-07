@@ -69,10 +69,85 @@ body {
 }
 
 .logo {
-  background: url(images/logo.svg);
+  background: url('images/logo.png') no-repeat;
+  background-size: 100%;
   width: 350px;
   display: block;
   margin: 0 auto;
-  padding-top: 100px;
-  border: 1px solid grey;
+  padding-top: 50px;
+}
+
+img{
+  text-indent:-9999px
+}
+
+.clockContainer {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
+.timer {
+    color: white;
+    font-family: 'Glegoo', serif;
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 1.3rem rgba(0,0,0,0.10);
+}
+
+.buttonContainer {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.timerButton {
+    color: white;
+    width: 25%;
+    height: 45px;
+    font-size: 1.1em;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    background-color: #f37854;
+    letter-spacing: .08em;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.suggested-time {
+    margin: -40px 0 23px 0;
+    text-align: center;
+}
+
+.suggestions {
+    margin: 3px;
+    display: inline-block;
+    font-family: 'Glegoo', serif;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 4px 22px;
+    font-size: 1em;
+    letter-spacing: .07em;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
 }

@@ -11,7 +11,7 @@ import './index.css';
 const App = () => {
 	return (
 	<div className="container-fluid">
-		<div className="bgImage"> hello calmadoro
+		<div className="bgImage">
 			<Clock />
 		</div>;
 	</div>
@@ -19,13 +19,3 @@ const App = () => {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
-
-// ReactDOM.render(
-// 	<Clock>
-// 	<div clasName="container-fluid">
-// 		<div clasName="bgImage">
-// 		</div>
-// 	</div>
-//   </Clock>,
-//   document.getElementById('root')
-// );
